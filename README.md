@@ -1,8 +1,6 @@
 # PiBitcoinPriceChecker
 Display the bitcoin price on 7-segment led array close  to real-time.
 
-## Description
-
 ## Appearance
 
 ## Components
@@ -17,3 +15,7 @@ Display the bitcoin price on 7-segment led array close  to real-time.
 - DisplayController get the bitcoin price from DisplayController process and display it.
 
 ## Usage
+1. Connect Raspberry Pi with led in accordance with the following image.
+2. Clone this repository on raspberry pi.
+3. Exec following command on terminal.
+`~`
