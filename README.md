@@ -2,7 +2,7 @@
 Display the bitcoin price on 7-segment led array close  to real-time.
 
 ## Appearance
-![img](https://github.com/hmhm903/PiBitcoinPriceChecker/blob/master/appearance.png  
+![img](https://github.com/hmhm903/PiBitcoinPriceChecker/blob/master/appearance.png)
 
 ## Components
 - Raspberry Pi (We checked the operation of Pi 3 model B)
