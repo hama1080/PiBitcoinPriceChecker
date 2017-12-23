@@ -18,5 +18,5 @@ Display the bitcoin price on 7-segment led array close  to real-time.
 ## Usage
 1. Connect Raspberry Pi with led in accordance with the following image.
 2. Clone this repository on raspberry pi.
-3. Exec following command on terminal.
-`~`
+3. Exec following command on terminal.  
+`python3 main.py`
