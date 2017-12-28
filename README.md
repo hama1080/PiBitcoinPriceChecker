@@ -20,5 +20,5 @@ Display the bitcoin price on 7-segment led array close  to real-time.
 2. Clone this repository on raspberry pi.
 `sudo git clone https://github.com/hmhm903/PiBitcoinPriceChecker`
 3. Exec following command on terminal.  
-`cd PiBitcoinPriceChecker`
+`cd PiBitcoinPriceChecker`  
 `python3 main.py`
