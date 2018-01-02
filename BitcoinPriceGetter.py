@@ -17,9 +17,9 @@ class BitcoinPriceGetter(multiprocessing.Process):
     def run(self, price, stop_flag):
         signal.signal(signal.SIGINT,  signal.SIG_IGN)
         signal.signal(signal.SIGTERM, signal.SIG_IGN)
-        # get bitcoin price 0.5s periods
+        # get bitcoin price 60s periods
         while(1):
             if stop_flag.is_set() :
                 break
             price.value = self.GetBitCoinPrice()
-            time.sleep(0.5)
+            time.sleep(60)
