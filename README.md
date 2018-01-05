@@ -9,6 +9,10 @@ Display the bitcoin price on 7-segment led array.
 - 7-segment led array which can display 8 digits
 - Wire (in order to connect raspberry pi with led)
 
+## Circuit
+- GPIO 2\~9: led anode(digit0\~digit7)
+- GPIO 10\~17: cathode(A\~G+DP)
+
 ## Motion of this program
 - Run the DisplayController process and BitcoinPriceGetter process. 
 - DisplayController control the GPIO of raspberry pi (using dynamic lighting system). 
